@@ -90,7 +90,6 @@ function onDomReady() {
 		onNewTweets(() => {
 			safely(codeHighlight);
 			safely(mentionHighlight);
-			safely(hideLikeTweets);
 			safely(inlineInstagramPhotos);
 			safely(hidePromotedTweets);
 			safely(renderInlineCode);
